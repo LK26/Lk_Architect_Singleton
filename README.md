@@ -1,9 +1,9 @@
-####1.设计模式分为三个类
+#### 1.设计模式分为三个类
 * 创建型
 * 结构型
 * 行为型
 
-####2.创建型:单例模式
+#### 2.创建型:单例模式
 * 为什么用单例模式?
 如果你看到这个问题,你怎么回答呢?
 1. OC编程习惯
@@ -32,7 +32,7 @@ alloc:开辟内存  release:释放内存
 3. 约束三:在OC里面重写父类中的allocWithZone方法,保证是一个单例,当我们在调用alloc的时候回调该方法.
 4. 约束四:OC需要重写父类copyWithzone等,Swift中你要将构建方法私有化,Java也是一样构造方法私有化.
 
-####3.实现单例
+#### 3.实现单例
 * OC-单例模式
 线程安全和非线程安全
 1.标准单例模式01
@@ -105,7 +105,7 @@ alloc:开辟内存  release:释放内存
 
 ![枚举定义单例.png](https://upload-images.jianshu.io/upload_images/2960658-e4452b92316b887f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####4.UML单例图
+#### 4.UML单例图
 
 ![UML单例图.png](https://upload-images.jianshu.io/upload_images/2960658-7de0aa516b1b2fad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -117,7 +117,7 @@ alloc:开辟内存  release:释放内存
 UIApplication,NSNotificationCenter等等
 2.实际开发中:工具类(单例,数据库等等)
 
-####6.总结
+#### 6.总结
 通过对OC,swift,java这些单例模式设计,
 是不是对单例有了新的了解.
 自己亲自动手一下,单例模式会更加深刻.
