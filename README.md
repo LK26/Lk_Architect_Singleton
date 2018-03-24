@@ -128,6 +128,9 @@ UIApplication,NSNotificationCenter等等
 下一节,我们继续进行模式设计.
 如果您喜欢这篇文章,请记得点赞哦.
 
+简书地址:https://www.jianshu.com/p/9e9b405b4d94
+有什么问题可以去简书进行评论.
+
 
 
 
